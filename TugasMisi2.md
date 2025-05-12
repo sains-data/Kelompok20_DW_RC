@@ -1,5 +1,7 @@
 LAPORAN TUGAS MISI KEDUA
+
 PERGUDANGAN DATA RC
+
 Disusun oleh:
 
 Kelompok 20
