@@ -57,7 +57,9 @@ Sumber Data & Metadata
 Data yang akan digunakan berasal dari situs Kaggle dengan judul "Video Games Sale" yang dikembangkan oleh Zahid Feroze. Data ini berbentuk CSV dan merupakan data historis penjualan video game di beberapa kawasan di dunia. Dataset ini bersifat statik atau tidak diperbarui secara berkala, karena merupakan kompilasi data historis dari berbagai sumber industri game. Oleh karena itu, frekuensi pembaruan datanya tidak relevan (non-realtime). Data ini sangat cocok digunakan untuk keperluan analisis tren penjualan game berdasarkan waktu, platform, genre, serta pengaruh publisher terhadap performa penjualan global.
 
 4.2 Metadata
+
 Tabel 4.1 Metadata
+
 ![image](https://github.com/user-attachments/assets/025144d0-af89-4663-baa4-876d4f39fd69)
 
 DAFTAR PUSTAKA
