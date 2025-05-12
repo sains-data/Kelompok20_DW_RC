@@ -1,6 +1,19 @@
 LAPORAN TUGAS MISI KEDUA
-
 PERGUDANGAN DATA RC
+Disusun oleh:
+
+Kelompok 20
+
+1. Asrizal                      (121450010)
+
+2. Anissa Luthfi Alifia         (121450093)
+
+3. Rani Puspita Sari            (122450030)
+ 
+4. Rendi Alexander Hutagalung   (122450057)
+
+5. Irvan Alfaritzi              (122450093)
+
 
 BAB 1 Analisis Kebutuhan Informasi Bisnis
 
