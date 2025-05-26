@@ -119,7 +119,7 @@ JOIN dim_genre g ON f.Genre_ID = g.Genre_ID
 GROUP BY g.Genre_Game; 
 
 
-👥 Tim Kami (Kelompok 20)
+# 👥 Tim Kami (Kelompok 20)
 Berikut adalah anggota kelompok yang berkontribusi dalam proyek ini:
 
 Asrizal (121450010) 
