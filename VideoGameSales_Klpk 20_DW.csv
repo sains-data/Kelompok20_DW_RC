@@ -1,0 +1,102 @@
+Game_ID,Platform_ID,Year_ID,Genre_ID,Publlisher_ID,Total_Sales_Global,Name,Platform,Year,Genre,Publisher
+1,5,5,4,3,82.74,The Last Adventure,PlayStation,2015,Action,Epic Games
+2,1,2,1,1,40.24,Space Warriors,Xbox,2016,Adventure,Ubisoft
+3,1,3,1,2,35.82,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+4,3,1,3,2,33,Racing Legends,PC,2018,Racing,Nintendo
+5,5,4,5,4,31.37,Mystery Mansion,Mobile,2019,Puzzle,Activision
+6,2,2,2,2,30.26,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+7,2,3,2,2,30.01,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+8,4,4,4,4,29.02,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+9,5,1,5,5,28.62,Wild West,PC,2023,Horror,Sega
+10,3,6,3,3,28.31,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+11,4,9,4,4,24.76,The Last Adventure,PlayStation,2015,Action,Epic Games
+12,5,8,5,5,23.42,Space Warriors,Xbox,2016,Adventure,Ubisoft
+13,1,9,1,1,23.1,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+14,2,8,2,2,22.72,Racing Legends,PC,2018,Racing,Nintendo
+15,3,7,3,3,22,Mystery Mansion,Mobile,2019,Puzzle,Activision
+16,4,9,4,4,21.82,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+17,4,4,4,4,21.4,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+18,3,3,3,3,20.81,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+19,2,2,2,2,20.61,Wild West,PC,2023,Horror,Sega
+20,3,4,3,3,20.22,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+21,4,6,4,4,18.36,The Last Adventure,PlayStation,2015,Action,Epic Games
+22,5,8,5,5,18.14,Space Warriors,Xbox,2016,Adventure,Ubisoft
+23,5,1,5,5,17.28,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+24,3,2,3,3,16.38,Racing Legends,PC,2018,Racing,Nintendo
+25,4,3,4,4,16.15,Mystery Mansion,Mobile,2019,Puzzle,Activision
+26,5,4,5,5,15.85,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+27,1,7,1,1,15.32,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+28,2,9,2,2,15.3,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+29,3,2,3,3,14.98,Wild West,PC,2023,Horror,Sega
+30,1,4,1,1,14.76,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+31,2,6,2,2,14.64,The Last Adventure,PlayStation,2015,Action,Epic Games
+32,3,8,3,3,14.64,Space Warriors,Xbox,2016,Adventure,Ubisoft
+33,2,9,2,2,14.35,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+34,2,1,2,2,14.24,Racing Legends,PC,2018,Racing,Nintendo
+35,3,3,3,3,14.03,Mystery Mansion,Mobile,2019,Puzzle,Activision
+36,4,5,4,4,13.73,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+37,4,7,4,4,13.51,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+38,5,9,5,5,13.46,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+39,2,2,2,2,13.1,Wild West,PC,2023,Horror,Sega
+40,5,4,5,5,13.04,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+41,1,6,1,1,12.73,The Last Adventure,PlayStation,2015,Action,Epic Games
+42,3,8,3,3,12.27,Space Warriors,Xbox,2016,Adventure,Ubisoft
+42,4,1,4,4,12.21,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+43,2,3,2,2,12.14,Racing Legends,PC,2018,Racing,Nintendo
+44,2,5,2,2,11.98,Mystery Mansion,Mobile,2019,Puzzle,Activision
+45,3,7,3,3,11.9,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+46,2,9,2,2,11.89,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+47,4,2,4,4,11.66,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+48,4,4,4,4,11.52,Wild West,PC,2023,Horror,Sega
+49,5,6,5,5,11.33,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+50,5,8,5,5,11.18,The Last Adventure,PlayStation,2015,Action,Epic Games
+51,2,1,2,2,11.02,Space Warriors,Xbox,2016,Adventure,Ubisoft
+52,1,3,1,1,10.95,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+53,3,2,3,3,10.79,Racing Legends,PC,2018,Racing,Nintendo
+54,4,4,4,4,10.77,Mystery Mansion,Mobile,2019,Puzzle,Activision
+55,5,6,5,5,10.69,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+56,4,5,4,4,10.57,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+57,4,8,4,4,10.55,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+58,5,7,5,5,10.49,Wild West,PC,2023,Horror,Sega
+59,1,9,1,1,10.42,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+60,2,8,2,2,10.26,The Last Adventure,PlayStation,2015,Action,Epic Games
+61,3,6,3,3,10.21,Space Warriors,Xbox,2016,Adventure,Ubisoft
+62,4,4,4,4,9.88,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+63,2,2,2,2,9.87,Racing Legends,PC,2018,Racing,Nintendo
+64,5,1,5,5,9.82,Mystery Mansion,Mobile,2019,Puzzle,Activision
+65,2,4,2,2,9.76,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+66,3,5,3,3,9.72,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+67,5,6,5,5,9.59,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+68,4,7,4,4,9.52,Wild West,PC,2023,Horror,Sega
+69,2,9,2,2,9.49,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+70,3,2,3,3,9.32,The Last Adventure,PlayStation,2015,Action,Epic Games
+71,1,4,1,1,9.3,Space Warriors,Xbox,2016,Adventure,Ubisoft
+72,3,6,3,3,9.2,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+73,2,8,2,2,9.09,Racing Legends,PC,2018,Racing,Nintendo
+74,4,1,4,4,9.02,Mystery Mansion,Mobile,2019,Puzzle,Activision
+75,5,2,5,5,8.84,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+76,2,4,2,2,8.76,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+77,1,6,1,1,8.49,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+78,2,9,2,2,8.49,Wild West,PC,2023,Horror,Sega
+79,3,1,3,3,8.49,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+80,4,3,4,4,8.42,The Last Adventure,PlayStation,2015,Action,Epic Games
+81,4,5,4,4,8.33,Space Warriors,Xbox,2016,Adventure,Ubisoft
+82,5,7,5,5,8.24,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+83,1,9,1,1,8.11,Racing Legends,PC,2018,Racing,Nintendo
+84,2,2,2,2,8.09,Mystery Mansion,Mobile,2019,Puzzle,Activision
+85,3,3,3,3,8.06,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+86,2,5,2,2,8.05,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+87,3,4,3,3,7.86,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+88,4,7,4,4,7.84,Wild West,PC,2023,Horror,Sega
+89,5,6,5,5,7.81,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+90,1,8,1,1,7.72,The Last Adventure,PlayStation,2015,Action,Epic Games
+91,2,7,2,2,7.69,Space Warriors,Xbox,2016,Adventure,Ubisoft
+92,3,9,3,3,7.67,Dragon Quest,Nintendo,2017,RPG,Electronic Arts
+93,4,8,4,4,7.6,Racing Legends,PC,2018,Racing,Nintendo
+94,4,1,4,4,7.6,Mystery Mansion,Mobile,2019,Puzzle,Activision
+95,5,3,5,5,7.58,Fantasy Kingdom,PlayStation,2020,Strategy,Rockstar Games
+96,4,7,4,4,7.46,Cyberpunk 2077,Xbox,2021,Sports,Sony Interactive
+97,3,1,3,3,7.45,Ocean Explorer,Nintendo,2022,Simulation,Microsoft Studios
+98,2,3,2,2,7.37,Wild West,PC,2023,Horror,Sega
+99,1,5,1,1,9.14,Ancient Empire,Mobile,2024,FPS,Bandai Namco
+100,4,4,4,2,6.19,Wild West,Mobile,2015,FPS,Bandai Namco
