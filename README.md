@@ -1,24 +1,69 @@
-# 🎮  Analisis Penjualan Video Game Global 🕹️
+# 🎮  Perancangan Data Warehouse Pada Industri Game oleh PT Lintas Dimensi Kreatif 🕹️
 
 
 
 
 
 
-Proyek ini bertujuan untuk merancang dan mengimplementasikan sebuah data warehouse untuk menganalisis data penjualan video game dari berbagai sumber, platform, dan wilayah geografis.
+Proyek ini merupakan implementasi sistem Data Warehouse untuk mendukung analisis penjualan video game global. Dengan pendekatan Star Schema, sistem mencakup proses ETL, indexing, partisi tabel, hingga visualisasi. Data yang digunakan untuk mensimulasikan kondisi industri game.
 
-# 🎯 Latar Belakang & Tujuan
-Industri game global menghasilkan volume data penjualan yang sangat besar dan tersebar. Perusahaan menghadapi tantangan dalam:
+# 🧠 Latar Belakang
+Industri game berkembang pesat dengan data penjualan yang masif dan tersebar di banyak platform. Data warehouse hadir sebagai solusi:
 
-Mengintegrasikan data penjualan yang tersebar.
-Menghindari pemrosesan data manual yang memakan waktu dan rentan kesalahan.
-Melakukan analisis multidimensi untuk memahami pola penjualan (berdasarkan waktu, genre, platform, dll.).
-Tujuan utama proyek ini adalah membangun data warehouse yang:
+* Integrasi data lintas platform & wilayah
 
-Mengintegrasikan data penjualan game.
-Memfasilitasi analisis multidimensi.
-Menyediakan landasan kuat untuk pengambilan keputusan strategis berbasis data.
-Mendukung kebutuhan berbagai stakeholder (Manajemen, Marketing, Analis, Developer).
+* Analisis multidimensi (genre, waktu, platform, publisher)
+
+* Pengambilan keputusan strategis berbasis data
+
+# 🎯 Tujuan Proyek
+* Mendesain dan membangun arsitektur gudang data penjualan video game
+
+* Mengimplementasikan proses ETL secara end-to-end
+
+* Menghasilkan visualisasi data yang mendukung eksplorasi pola dan tren penjualan dari berbagai perspektif
+
+
+# 🗂️ Skema Star Schema
+
+Tabel Fakta: TabelFakta_Sales menyimpan Total_SalesGlobal & foreign key
+
+Tabel Dimensi: dim_game, dim_platform, dim_year, dim_genre, dim_publisher
+
+
+# ⚙️ Teknologi dan Tools
+| Proses           | Tools              |
+| ---------------- | ------------------ |
+| ETL              | Python (pandas)    |
+| Database         | PostgreSQL         |
+| DDL & Query      | SQL                |
+| Manajemen Proyek | Git & GitHub       |
+
+# 📦 Sumber Data
+Dataset disusun dengan struktur dan pola yang mencerminkan kondisi nyata industri game. Data mencakup informasi:
+
+Nama game
+
+Genre dan tahun rilis
+
+Platform dan publisher
+
+Total penjualan global
+
+Dataset ini mendukung eksperimen dan pengujian skema data warehouse secara menyeluruh.
+
+# 🔄 Proses ETL
+Extract: Dataset dummy dibaca dari file CSV menggunakan Python
+
+Transform: Pembersihan data, konversi tipe data, mapping ke tabel dimensi
+
+Load: Data dimasukkan ke PostgreSQL berdasarkan skema bintang
+
+
+# 📈 Evaluasi dan Visualisasi
+* Indeks & partisi diterapkan untuk optimisasi performa query
+
+
 
 # 🏗️ Arsitektur Sistem
 Kami mengadopsi arsitektur data warehouse dengan aliran proses sebagai berikut:
@@ -45,14 +90,6 @@ Kami menggunakan Star Schema karena kesederhanaannya dan kemampuannya mendukung 
 
   * dim_publisher (Info Penerbit) 
 
-# 🛠️ Teknologi yang Digunakan
-ETL & Transformasi Data: Python.
-
-Database (Data Warehouse): PostgreSQL / MySQL.
-
-Sumber Data: Dataset "Video Games Sale".
-# ⚙️ Proses ETL (Extract, Transform, Load)
-Extract: Mengambil data mentah dari file CSV penjualan video game.
 
 Transform: 
 Membersihkan data (duplikat, inkonsistensi).
@@ -61,62 +98,6 @@ Memetakan data ke tabel dimensi.
 Menghitung agregasi (Total_SalesGlobal) untuk tabel fakta.
 
 Load: Memasukkan data yang telah ditransformasi ke dalam tabel dimensi dan fakta di database PostgreSQL.
-
-📊 Contoh Implementasi & Visualisasi
-SQL DDL 
-
-SQL
-
-
--- Tabel Dimensi Game
-
-CREATE TABLE dim_game (
-
-    Game_ID INT PRIMARY KEY,
-    NameGame VARCHAR(100)
-    
-); 
-
-
--- Tabel Fakta Sales
-
-CREATE TABLE TabelFakta_Sales (
-
-    Game_ID INT,
-    Platform_ID INT,
-    Year_ID INT,
-    Genre_ID INT,
-    Publisher_ID INT,
-    Total_SalesGlobal FLOAT,
-    PRIMARY KEY (Game_ID, Platform_ID, Year_ID, Genre_ID, Publisher_ID),
-    FOREIGN KEY (Game_ID) REFERENCES dim_game(Game_ID),
-    FOREIGN KEY (Platform_ID) REFERENCES dim_platform(Platform_ID),
-    FOREIGN KEY (Year_ID) REFERENCES dim_year(Year_ID),
-    FOREIGN KEY (Genre_ID) REFERENCES dim_genre(Genre_ID),
-    FOREIGN KEY (Publisher_ID) REFERENCES dim_publisher(Publisher_ID)
-
-); 
-
-
--- Index
-
-CREATE INDEX idx_platform ON TabelFakta_Sales(Platform_ID); 
-
--- View
-
-CREATE VIEW View_Penjualan_Per_Genre AS
-
-SELECT
-
-    g.Genre_Game,
-    SUM(f.Total_SalesGlobal) AS Total_Penjualan
-FROM
-
-    TabelFakta_Sales f
-    
-JOIN dim_genre g ON f.Genre_ID = g.Genre_ID
-
-GROUP BY g.Genre_Game; 
 
 
 # 👥 Tim Kami (Kelompok 20)
