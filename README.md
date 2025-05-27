@@ -42,13 +42,13 @@ Tabel Dimensi: dim_game, dim_platform, dim_year, dim_genre, dim_publisher
 # 📦 Sumber Data
 Dataset disusun dengan struktur dan pola yang mencerminkan kondisi nyata industri game. Data mencakup informasi:
 
-Nama game
+* Nama game
 
-Genre dan tahun rilis
+* Genre dan tahun rilis
 
-Platform dan publisher
+* Platform dan publisher
 
-Total penjualan global
+* Total penjualan global
 
 Dataset ini mendukung eksperimen dan pengujian skema data warehouse secara menyeluruh.
 
