@@ -7,6 +7,10 @@
 
 Proyek ini merupakan implementasi sistem Data Warehouse untuk mendukung analisis penjualan video game global. Dengan pendekatan Star Schema, sistem mencakup proses ETL, indexing, partisi tabel, hingga visualisasi. Data yang digunakan untuk mensimulasikan kondisi industri game.
 
+# 🏗️ Sistem Arsitektur 
+![image](https://github.com/user-attachments/assets/170e5ea6-be4f-4e6e-8eab-455e67da9cb1)
+
+
 # 🧠 Latar Belakang
 Industri game berkembang pesat dengan data penjualan yang masif dan tersebar di banyak platform. Data warehouse hadir sebagai solusi:
 
@@ -103,16 +107,16 @@ Load: Memasukkan data yang telah ditransformasi ke dalam tabel dimensi dan fakta
 # 👥 Tim Kami (Kelompok 20)
 Berikut adalah anggota kelompok yang berkontribusi dalam proyek ini:
 
-Asrizal (121450010) 
+1. Asrizal (121450010) 
 
 
-Anissa Luthfi Alifia (121450093) 
+2. Anissa Luthfi Alifia (121450093) 
 
 
-Rani Puspita Sari (122450030) 
+3. Rani Puspita Sari (122450030) 
 
 
-Rendi Alexander Hutagalung (122450057) 
+4. Rendi Alexander Hutagalung (122450057) 
 
 
-Irvan Alfaritzi (122450093) 
+5. Irvan Alfaritzi (122450093) 
